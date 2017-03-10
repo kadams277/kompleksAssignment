@@ -104,7 +104,7 @@ hr {
 .grid-custom .col-xs-6,
 .grid-custom .col-xs-12,
 .grid-custom .col-sm-3 {
-    /*padding:5px;*/
+    padding:2px;
       }
 .img-responsive¨
   }
@@ -114,8 +114,8 @@ hr {
 }
 
 .squares {
-  background-color: black;
   height: 305px;
+  width: 316px;
 }
 
 #square1, #square4 {
@@ -128,13 +128,54 @@ hr {
 
 #about{
   height: 100%;
+  display: inline;
 }
 
 #aboutBlock {
   padding: 0;
   margin: 0;
+  height: 610px;
+  background: url(../img/about.png);
 }
 
+#aboutText {
+  font-size: 583%;
+  font-weight: 800;
+  margin-bottom: 10%;
+  color: rgb(159, 7,7);
+  text-align: left;
+  line-height: 85%;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+
+#subAbout {
+  text-align: right;
+  color: rgb(159, 7,7);
+  font-family: "Helvetica", sans-serif;
+  font-weight: 600;
+  margin-top: -10%;
+  font-size: 11px;
+  margin-right: 25%;
+  margin-bottom: 10%;
+}
+
+#pText {
+  margin-left: 15%;
+  margin-right: 15%;
+  border-left: 1px solid rgb(159, 7,7);
+  padding-left: 10px;
+}
+
+.title {
+  font-size: 583%;
+  font-weight: 800;
+  color: white;
+  text-align: left;
+  line-height: 85%;
+  margin-top: 30%;
+  margin-left: 20%;
+}
 
 /* TESTIMONIALS */
 #quote-carousel {
@@ -175,11 +216,24 @@ hr {
   padding-left: 15px;
 }
 
+/* WORK */
+
+#milkBoy {
+  height: 309px;
+  padding: 0;
+  width: 100%;
+}
+
+#beeCards, #stampede {
+  height: 332px;
+}
+
 /* HELLO */
 
 #helloSection {
   background: url(../img/hello.png) no-repeat center center fixed;
   height: 600px;
+  margin-top: 4.9%;
 }
 
 #hello {
