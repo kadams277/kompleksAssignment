@@ -203,7 +203,7 @@ hr {
 
 footer {
   background-color: black;
-  height: 200px;
+  height: 400px;
 }
 
 #subscribe {
@@ -222,7 +222,8 @@ footer {
   margin-top: 5%;
   margin-bottom: -2%;
   font-size: 12px;
-  font-weight: 500;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 700;
 }
 
 
@@ -230,10 +231,53 @@ footer {
   color: white;
   text-align: bottom;
   font-size: 12px;
-  font-weight: 500;
   padding-top: 91px;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 700;
 }
 
+.sub {
+  text-align: left;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
 
+.header{
+  color: white;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 3px;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 700;
+}
+
+.social {
+  display: inline;
+  float: left;
+  margin-right: 20px;
+  width: 10%;
+  height: 10%;
+}
+
+#footer1 {
+  margin-bottom: 5%;
+
+}
+
+#border1 {
+  border-left: 1px solid white;
+}
+
+#align {
+  padding: 0px;
+}
+
+#fullLogo {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
 
 
