@@ -39,6 +39,12 @@ h1 {
  line-height: 50px;
 }
 
+.glyphicon-th {
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+}
+
 
 /* LANDING */
 
@@ -84,62 +90,16 @@ hr {
   border: none;
 }
 
-#test {
 
-}
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
-@media (min-width: 768px) {
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
-  }
-}
-
-
-
-/* about section */
+/* ABOUT */
 .main {
   margin: 0 auto -60px;
 }
+
 .main .img-responsive {
   margin-bottom: 0px;
 }
-footer, .footer-push {
-  height: 65px;
-  background-color: #f5f5f5;
-}
-.social-icons {
-  margin-right: 15px;
-  font-size: 40px;
-  line-height: 75px;
-}
+
 .grid-custom .col-sm-6,
 .grid-custom .col-xs-6,
 .grid-custom .col-xs-12,
@@ -148,6 +108,7 @@ footer, .footer-push {
       }
 .img-responsive¨
   }
+
 .first-block{
   border-bottom: 5px #000 solid;
 }
@@ -175,7 +136,7 @@ footer, .footer-push {
 }
 
 
-/* carousel */
+/* TESTIMONIALS */
 #quote-carousel {
   padding: 0 10px 30px 10px;
   margin-top: 30px;
@@ -183,8 +144,6 @@ footer, .footer-push {
   font-family: "Helvetica", sans-serif;
   font-weight: 600;
   font-size: 30px;
-  
-
 }
 /* indicator position */
 #quote-carousel .carousel-indicators {
@@ -216,7 +175,64 @@ footer, .footer-push {
   padding-left: 15px;
 }
 
+/* HELLO */
 
+#helloSection {
+  background: url(../img/hello.png) no-repeat center center fixed;
+  height: 600px;
+}
+
+#hello {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 600;
+  font-size: 200px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#helloTag {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  height: 200px;
+}
+
+#subscribe {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 60px;
+  color: grey;
+  border-left: 1px solid white;
+ /* border-bottom: 1px solid grey;*/
+  text-align: left;
+}
+
+#keepup{
+  color: white;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: -2%;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+#signup{
+  color: white;
+  text-align: bottom;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 91px;
+}
 
 
 
